@@ -1,0 +1,50 @@
+.Parking-view{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 5rem; */
+    align-items: center;
+    background:transparent;
+}
+th>button{
+    background-color: rgb(10, 152, 105);
+    background: transparent;
+}
+.road{
+    width: 2rem;
+    background-color: black;
+    border: 2px red solid;
+    background-image: none;
+
+}
+.road2{
+    height: 1rem;
+    width: 27.5rem;
+    background-color: rgb(0, 0, 0);
+    border: 2px red solid;
+    background-image: none;
+}
+.road3{
+    width: 0.7rem;
+    background-color: black;
+    border: 2px red solid;
+    background-image: none;
+}
+button{
+    width:6rem;
+    height: 2.5rem;
+    background-color: rgb(13, 184, 127);
+    background-image: none;
+}
+*{
+    color: aliceblue;
+}
+.red{
+    background-color: red;
+    background-image: none;
+}
+#time{
+    color: rgb(65, 49, 237);
+    background-color: rgb(255, 204, 204);
+    background-image: none;
+}

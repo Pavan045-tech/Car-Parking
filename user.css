@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Eczar&family=Edu+VIC+WA+NT+Beginner:wght@700&family=Katibeh&family=Neucha&family=Oleo+Script+Swash+Caps&family=Stylish&display=swap');
+
+.input{
+    position: relative;
+    color: black;
+    width: 26vw;
+    height: 3rem;
+    padding: 20px 20px;
+    font-size: x-large;
+    transition: 0.2s;
+    border: none;
+    box-shadow: inset 0 0 3px black;
+    background-color: aliceblue;
+    font-family: "Cormorant SC";
+    background-image: none;
+
+}
+.input:focus{
+    box-shadow: 0 0 100px 1000px rgba(31, 32, 32, 0.4);
+    outline: none;
+    color: black;
+    background-image: none;
+}
+.submit{
+    width: 5em;
+    height: 5rem;
+    margin: 1rem;
+    border: none;
+    background-color: rgb(16, 132, 93);
+    color: black;
+    font-size: x-large;
+    font-family: "Cormorant SC";
+    box-shadow: 0 0 10px black;
+    background-image: none;
+
+}
+label{
+    font-size: large;
+    font-family: "Cormorant SC";
+    background-image: none;
+}
+form{
+    background-image: none;
+
+}
+h1{
+    font-family: "Cormorant SC";
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-image: none;
+    font-size: 6vw;
+    text-align: center;
+}
+.full-page-view{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+
+}
+.submit:hover{
+    background-color: rgb(1, 206, 138);
+    background-image: none;
+}
+*{
+    background-image: url("https://wheelfront.com/wp-content/uploads/formidable/8/bmw-f90-m5-comp-with-zperformance-zpforged2-wheels-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* https://wallup.net/wp-content/uploads/2019/09/15887-bmw-black-cars-tuning-garages-parking-lot.jpg */
+  }
+.submit:active{
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+    border-color: aliceblue;
+    background-image: none;
+}
+.main{
+    background-image: none;
+    margin: auto;
+}
+.Link{
+    font-size: medium;
+    background-image: none;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: none;
+}
+.footer{
+    margin-top: 24rem;
+    width: 100%;
+    height: 20vw;
+    background-color: rgba(54, 24, 24,0.5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    background-image: none;
+}
+.footer1{
+    font-size: 4vw;
+    color: rgb(208, 124, 124);
+}
+@media (max-width: 600px){
+    .input {
+        width:65vw;
+        height: 5vw;
+        font-size: medium;
+        background-image: none;
+    }
+    .submit{
+        width: 25vw;
+        height: 15vw;
+        font-size: medium;
+        background-image: none;
+        margin-top: 7vw;
+        background-color: none;
+    }
+    .full-page-view{
+        width: 100%;
+        height: 100%;
+        background-image: none;
+        background: transparent;
+    }
+    *{
+        background-size:auto;
+
+    }
+    form{
+        background-image: none;
+        margin-top: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    .label{
+        background-image: none;
+    }
+    input{
+        background-image: none;
+    }
+    .main{
+        background-image: none;
+    }
+    h1{
+        font-size: 15vw;
+    }
+    .Link{
+        font-size: medium;
+        background-image: none;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
